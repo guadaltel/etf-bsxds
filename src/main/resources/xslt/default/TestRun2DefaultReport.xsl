@@ -768,7 +768,7 @@
 							<xsl:when test="./etf:status[1]/text() = 'FAILED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-plus ui-btn-i ui-mini</xsl:when>
 							<xsl:when test="./etf:status[1]/text() = 'WARNING'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-info ui-btn-j ui-mini </xsl:when>
 							<xsl:when test="./etf:status[1]/text() = 'INFORMATION'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-info ui-btn-j ui-mini </xsl:when>
-							<xsl:when test="./etf:status[1]/text() = 'SKIPPED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-alert ui-btn-j ui-mini</xsl:when>
+							<xsl:when test="./etf:status[1]/text() = 'SKIPPED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-alert ui-btn-g ui-mini</xsl:when>
 							<xsl:when test="./etf:status[1]/text() = 'NOT_APPLICABLE'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-plus ui-btn-f ui-mini</xsl:when>
 							<xsl:when test="./etf:status[1]/text() = 'UNDEFINED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-plus ui-btn-f ui-mini</xsl:when>
 						</xsl:choose>
@@ -947,7 +947,7 @@
 									<xsl:when test="./etf:status[1]/text() = 'FAILED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-plus ui-btn-i ui-mini</xsl:when>
 									<xsl:when test="./etf:status[1]/text() = 'WARNING'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-plus ui-btn-j ui-mini </xsl:when>
 									<xsl:when test="./etf:status[1]/text() = 'INFORMATION'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-plus ui-btn-j ui-mini </xsl:when>
-									<xsl:when test="./etf:status[1]/text() = 'SKIPPED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-plus ui-btn-j ui-mini</xsl:when>
+									<xsl:when test="./etf:status[1]/text() = 'SKIPPED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-plus ui-btn-g ui-mini</xsl:when>
 									<xsl:when test="./etf:status[1]/text() = 'NOT_APPLICABLE'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-plus ui-btn-f ui-mini</xsl:when>
 									<xsl:when test="./etf:status[1]/text() = 'UNDEFINED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-plus ui-btn-f ui-mini</xsl:when>
 								</xsl:choose>
@@ -1225,7 +1225,7 @@
 							<xsl:when test="./etf:status[1]/text() = 'FAILED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-alert ui-btn-i ui-mini</xsl:when>
 							<xsl:when test="./etf:status[1]/text() = 'WARNING'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-info ui-btn-j ui-mini</xsl:when>
 							<xsl:when test="./etf:status[1]/text() = 'INFORMATION'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-info ui-btn-j ui-mini</xsl:when>
-							<xsl:when test="./etf:status[1]/text() = 'SKIPPED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-alert ui-btn-j ui-mini</xsl:when>
+							<xsl:when test="./etf:status[1]/text() = 'SKIPPED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-alert ui-btn-g ui-mini</xsl:when>
 							<xsl:when test="./etf:status[1]/text() = 'NOT_APPLICABLE'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-forbidden ui-btn-f ui-mini</xsl:when>
 							<xsl:when test="./etf:status[1]/text() = 'UNDEFINED'"><xsl:value-of select="$collapsibleHeadingJqmClass"/> ui-icon-forbidden ui-btn-f ui-mini</xsl:when>
 						</xsl:choose>
