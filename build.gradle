@@ -9,10 +9,8 @@ buildscript {
         maven {
             url "http://services.interactive-instruments.de/etfdev-af/plugins-releases-local"
             credentials {
-                //username 'ii-bda'
-                //password '6ozhS683'
-                username 'etf-public-dev'
-                password 'etf-public-dev'
+                username 'ii-bda'
+                password '6ozhS683'
             }}
     }
     dependencies {
